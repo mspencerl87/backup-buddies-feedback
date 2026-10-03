@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest something Backup Buddies doesn't do yet.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing, it's worth checking the
+        [feature status page](https://app.filegarden.net/status.html) —
+        some things (like marketplace filtering) are already listed as
+        in progress.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The underlying goal, not just the feature — helps judge fit even if the exact ask doesn't make sense to build.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What happens today instead?
+      description: What's missing or awkward about the current behavior for this.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Any suggestion for how this could work?
+      description: Optional — a rough idea is fine, no need to spec it out.
+    validations:
+      required: false

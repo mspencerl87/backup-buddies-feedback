@@ -1,0 +1,53 @@
+name: Bug report
+description: Something in Backup Buddies isn't working the way it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. First, a quick check:
+        the [feature status page](https://app.filegarden.net/status.html)
+        lists known limitations and in-progress work — if what you're
+        seeing is already documented there, it's probably not a bug.
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: As specific as you can — what you clicked, typed, or ran, in order.
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: >
+        OS, how you're running the client (Docker, bare binary, etc.),
+        and anything relevant about your network (home router, VPN,
+        corporate/firewalled network, etc.) — networking issues are
+        often network-specific.
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or screenshots
+      description: Paste any client logs or dashboard screenshots that show the problem.
+    validations:
+      required: false
