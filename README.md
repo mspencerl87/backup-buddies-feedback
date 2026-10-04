@@ -7,6 +7,17 @@ The app's actual code lives in a separate, private repo — this one exists
 so anyone can file an issue without needing access to that code. There's
 no code here on purpose.
 
+## Account, login, password or billing problems
+
+**Don't open an issue for these** — issues here are public, and these
+need your account details. Instead:
+
+- Forgot your password? Use [Forgot password?](https://app.filegarden.net/forgot-password.html).
+- Anything else: use **Contact support** on your
+  [dashboard](https://app.filegarden.net/dashboard.html#support), or if you
+  can't log in, email **support@filegarden.net** from your account's email
+  address.
+
 ## Before filing something new
 
 - Check the [feature status page](https://app.filegarden.net/status.html)

@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Account, login, password or billing problem? (not here)
+    url: https://app.filegarden.net/dashboard.html#support
+    about: Please don't post account details publicly. Use Contact support on your dashboard, or if you can't log in, email support@filegarden.net from your account's email address.
   - name: Feature status (what's already known/in progress)
     url: https://app.filegarden.net/status.html
     about: Check here before filing — your issue might already be a documented limitation.
